@@ -59,6 +59,8 @@ export default function App() {
       {/* Text Input, Number Input, and Start Button */}
       {!gameStarted && (
         <div className="w-full max-w-3xl px-4 text-center">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-500 mb-4">Word Removal Game</h1>
+          <p className="text-xl text-black mb-4">Enter your text, select the number of words to remove on each click, and start your game!</p>
           <textarea
             className="w-full p-2 border-2 border-gray-500 rounded mb-2 resize-none"
             rows={4}
