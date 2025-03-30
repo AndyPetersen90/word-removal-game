@@ -106,7 +106,7 @@ export default function App() {
             {words.map((word, index) => (
               <span
                 key={index}
-                className={`text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black ${hiddenIndexes.has(index) ? "invisible" : ""}`}
+                className={`text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-bold text-black ${hiddenIndexes.has(index) ? "invisible" : ""}`}
               >
                 {word}{" "}
               </span>
